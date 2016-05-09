@@ -8,7 +8,7 @@ import java.util.List;
 
 import model.DBConnection;
 
-public class TestDAO {
+public class TestDAO { // 테스트용 DAO
    private Connection conn;
    public TestDAO() {
       conn = DBConnection.getInstance().getConn();
